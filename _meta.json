@@ -1,9 +1,10 @@
 {
-  "name": "douyin-transcribe",
+  "name": "douyin-transcribe-skill",
   "version": "1.0.0",
   "description": "抖音视频转文字 — 发链接自动转录为带标点的中文文本",
   "author": "AI产品经理君威",
   "license": "MIT",
+
   "keywords": ["douyin", "抖音", "transcribe", "whisper", "语音转文字", "视频转文本"],
   "repository": "",
   "requires": {
