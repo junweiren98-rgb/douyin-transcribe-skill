@@ -1,16 +1,16 @@
 {
-  "name": "douyin-transcribe-skill",
-  "version": "1.0.0",
-  "description": "抖音视频转文字 — 发链接自动转录为带标点的中文文本",
-  "author": "AI产品经理君威",
+  "name": "douyin-transcribe",
+  "version": "1.1.0",
+  "description": "抖音视频智能助手 — 发链接自动转录，AI总结/逐字稿/归档/讨论，一条龙",
+  "author": "junweiren98-rgb",
   "license": "MIT",
 
-  "keywords": ["douyin", "抖音", "transcribe", "whisper", "语音转文字", "视频转文本"],
-  "repository": "",
+  "keywords": ["douyin", "抖音", "transcribe", "whisper", "语音转文字", "视频转文本", "AI总结", "知识库"],
+  "repository": "https://github.com/junweiren98-rgb/douyin-transcribe-skill",
   "requires": {
     "tools": ["browser", "exec", "read"],
     "external": ["ffmpeg"],
     "apis": ["groq"]
   },
-  "triggers": ["抖音", "转文字", "转录", "视频转文本", "douyin", "transcribe"]
+  "triggers": ["抖音", "douyin.com", "转文字", "转录", "视频转文本", "douyin", "transcribe", "v.douyin.com"]
 }
